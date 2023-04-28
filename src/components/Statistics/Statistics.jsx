@@ -3,8 +3,6 @@ import css from './Statistics.module.css';
 import getRandomHexColor from 'utils/getRandomHexColor';
 
 const Statistics = ({ stats, title }) => {
-  console.log(typeof data);
-
   return (
     <section className={css.statistics}>
       <h2 className={css.title}>{title}</h2>
