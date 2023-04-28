@@ -1,4 +1,21 @@
+.statsItem {
+  display: inline-block;
+  /* outline: 1px solid tomato; */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 33.33333%;
+  text-align: center;
+  padding: 30px auto;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 1px solid rgb(166, 164, 164);
+}
+
 .label {
+  font-size: 20px;
 }
 .quantity {
+  font-weight: bolder;
 }

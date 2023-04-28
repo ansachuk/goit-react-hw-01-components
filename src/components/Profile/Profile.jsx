@@ -14,16 +14,14 @@ const Profile = props => {
         <p className={css.location}>{location}</p>
       </div>
 
-      <ul className="stats">
-        <li>
-          <StatsBlock></StatsBlock>
-        </li>
-        <li>
-          <StatsBlock></StatsBlock>
-        </li>
-        <li>
-          <StatsBlock></StatsBlock>
-        </li>
+      <ul className={css.stats}>
+        {Object.keys(stats).map(key => (
+          <StatsBlock
+            key={key}
+            statsLabel={key}
+            quantity={stats[key]}
+          ></StatsBlock>
+        ))}
       </ul>
     </div>
   );
