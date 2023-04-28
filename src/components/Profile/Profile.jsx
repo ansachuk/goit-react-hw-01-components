@@ -20,6 +20,7 @@ const Profile = props => {
             key={key}
             statsLabel={key}
             quantity={stats[key]}
+            bordered={true}
           ></StatsBlock>
         ))}
       </ul>

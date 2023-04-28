@@ -1,0 +1,15 @@
+.statistics {
+  display: inline;
+  background-color: #fff;
+  width: 30%;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  padding: 15px 0;
+  color: #808080;
+  border-bottom: 1px solid #000;
+}
+.statList {
+  display: flex;
+}
