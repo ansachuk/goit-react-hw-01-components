@@ -1,0 +1,9 @@
+.transactionHistory {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.tHeaderLine {
+  padding: 15px;
+  background-color: aqua;
+}
