@@ -5,5 +5,10 @@
 
 .tHeaderLine {
   padding: 15px;
-  background-color: aqua;
+  background-color: rgb(1, 176, 176);
+  color: aliceblue;
+}
+
+.tBody {
+  background-color: gray;
 }

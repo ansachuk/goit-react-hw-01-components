@@ -12,9 +12,9 @@ const TransactionHistory = ({ transactions }) => (
       </tr>
     </thead>
 
-    <tbody>
+    <tbody className={css.tBody}>
       {transactions.default.map(item => (
-        <TransactionItem item={item} />
+        <TransactionItem key={item.id} item={item} />
       ))}
     </tbody>
   </table>
